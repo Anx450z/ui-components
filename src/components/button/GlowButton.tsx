@@ -18,7 +18,7 @@ const GlowButton = () => {
  <>
   <div className='button' onMouseMove={(e)=>updateMouseMovement(e)}>
    <button className='button-content'>
-    <span>Click me!</span>
+    <span>Login</span>
     </button>
   </div>
  </>
