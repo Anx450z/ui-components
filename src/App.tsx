@@ -1,8 +1,9 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import GlowGrid from './components/GlowGrid'
+import GlowGrid from './components/card/GlowGrid'
 import './App.css'
+import GlowButton from './components/button/GlowButton'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,6 +11,7 @@ function App() {
   return (
     <>
     <GlowGrid/>
+    <GlowButton/>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />

@@ -7,7 +7,7 @@
   height: 260px;
   flex-direction: column;
   position: relative;
-  width: 300px;  
+  max-width: 300px;  
 }
 
 .card:hover::before {
